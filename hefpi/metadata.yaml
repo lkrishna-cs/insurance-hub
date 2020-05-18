@@ -1,0 +1,21 @@
+version: hub/v1alpha
+kind: installable
+name: Health Equity And Financial Protection Data 
+image: logo.jpeg
+summary: |
+  Health Equity And Financial Protection Dataset on 34 Indicators of household financial health.
+description: |
+  The Health Equity and Financial Protection Indicators (HEFPI) dataset has grown over time from the first dataset published in 2000 which pulled data from 42 surveys and one type of survey, covered just 42 countries, and included just 34 indicators, which all concerned maternal and child health.
+  The entire dataset is located here https://datacatalog.worldbank.org/dataset/hefpi.
+license: <FILE LOCATION>
+contributor:
+  name: Contributor
+  email: no-reply@email.com
+  url: http://www.cognitivescale.com
+assets:
+  - type: dataset
+    name: CORD-19 Dataset
+    location: https://xpa-hub.s3.amazonaws.com/cord-19/CORD-19-research-challenge.zip
+  - type: certifai-scan
+    name: Certifai Scan
+    location: certifai/certifai.yaml
